@@ -98,8 +98,8 @@
     "idle_inhibitor": {
         "format": "{icon}",
         "format-icons": {
-            "activated": "",
-            "deactivated": ""
+            "activated": " ",
+            "deactivated": " "
         }
     },
     "tray": {
@@ -107,9 +107,19 @@
         "spacing": 10
     },
     "clock": {
-        // "timezone": "America/New_York",
-        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "format-alt": "{:%Y-%m-%d}"
+        "timezone": "America/Brasilia",
+        "format": "{:%d/%m/%y | %R}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><big>{calendar}</big></tt>",
+        "on-click": "/usr/bin/alacritty -e /usr/bin/fish -c /usr/bin/calcurse",
+        "calendar": {
+            "mode": "month",
+            "format": {
+                "months": "<span color='#ff6699'><b>{}</b></span>",
+                "days": "<span color='#cdd6f4'><b>{}</b></span>",
+                "weekdays": "<span color='#7CD37C'><b>{}</b></span>",
+                "today": "<span color='#ffcc66'><b>{}</b></span>"
+            }
+        }
     },
     "cpu": {
         "format": "{usage}% ",
@@ -156,7 +166,7 @@
       "format-icons": {
         "default": "",
         "performance": "",
-        "balanced": " ",
+        "balanced": "",
         "power-saver": ""
       }
     },
