@@ -1,0 +1,34 @@
+{
+    "editor.renderLineHighlight": "all",
+    "workbench.editor.labelFormat": "short",
+    "explorer.compactFolders": false,
+    
+    "workbench.activityBar.location": "top",
+    "window.titleBarStyle": "native",
+    "window.controlsStyle": "hidden",
+    "window.menuBarVisibility": "hidden",
+
+    "breadcrumbs.enabled": false,
+    "editor.minimap.enabled": false,
+
+
+    "workbench.colorTheme": "oxocarbon OLED",
+    "editor.semanticHighlighting.enabled": true,
+    "editor.bracketPairColorization.enabled": false,
+    "editor.smoothScrolling": true,
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": "on",
+
+    "terminal.integrated.smoothScrolling": true,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.enableVisualBell": true,
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
+    "chat.commandCenter.enabled": false,
+    "window.customTitleBarVisibility": "never",
+    "workbench.iconTheme": "material-icon-theme",
+    "terminal.integrated.lineHeight": 1,
+    "editor.fontVariations": false,
+    "editor.fontLigatures": false,
+    "editor.fontFamily": "RobotoMono Nerd Font Mono",
+}
